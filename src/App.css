@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*.container {*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(auto-fill, 50px);*/
+/*  justify-content: space-between;*/
+/*  grid-gap: 20px;*/
+/*}*/
+
+/*.item {*/
+/*  height: 50px;*/
+/*  border: solid;*/
+/*}*/
+
+.numbers {
+  max-width: 800px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  justify-content: space-between;
+  grid-gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.numbers::after {
+  content: "";
+  flex: auto;
+}
+
+.number {
+  color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.number:hover {
+  color: #212329;
+  background-color: #ccc;
+}
+
+.chosen, .chosen:hover {
+  background-color: #ccc;
+  color: green;
+}
+
+.draw-button {
+  color: #212329;
+  background-color: #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 50px;
+
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.draw-button:hover {
+  background-color: white;
+  color: #18191d;
+}
+
+.not-allowed:hover {
+  color: #212329;
+  background-color: #ccc;
+}
+
+.result {
+  margin-top: 100px;
 }
