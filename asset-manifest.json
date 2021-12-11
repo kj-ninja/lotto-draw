@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lotto-draw/static/css/main.acfcf360.chunk.css",
-    "main.js": "/lotto-draw/static/js/main.b639b106.chunk.js",
-    "main.js.map": "/lotto-draw/static/js/main.b639b106.chunk.js.map",
+    "main.css": "/lotto-draw/static/css/main.3d385a71.chunk.css",
+    "main.js": "/lotto-draw/static/js/main.728e5304.chunk.js",
+    "main.js.map": "/lotto-draw/static/js/main.728e5304.chunk.js.map",
     "runtime-main.js": "/lotto-draw/static/js/runtime-main.7a238fd0.js",
     "runtime-main.js.map": "/lotto-draw/static/js/runtime-main.7a238fd0.js.map",
     "static/js/2.15de9aa3.chunk.js": "/lotto-draw/static/js/2.15de9aa3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.2906b724.chunk.js": "/lotto-draw/static/js/3.2906b724.chunk.js",
     "static/js/3.2906b724.chunk.js.map": "/lotto-draw/static/js/3.2906b724.chunk.js.map",
     "index.html": "/lotto-draw/index.html",
-    "static/css/main.acfcf360.chunk.css.map": "/lotto-draw/static/css/main.acfcf360.chunk.css.map",
+    "static/css/main.3d385a71.chunk.css.map": "/lotto-draw/static/css/main.3d385a71.chunk.css.map",
     "static/js/2.15de9aa3.chunk.js.LICENSE.txt": "/lotto-draw/static/js/2.15de9aa3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7a238fd0.js",
     "static/js/2.15de9aa3.chunk.js",
-    "static/css/main.acfcf360.chunk.css",
-    "static/js/main.b639b106.chunk.js"
+    "static/css/main.3d385a71.chunk.css",
+    "static/js/main.728e5304.chunk.js"
   ]
 }
